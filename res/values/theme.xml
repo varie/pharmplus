@@ -4,4 +4,11 @@
         <item name="android:windowBackground">@color/white</item>
         <item name="android:textColor">#F0E68C</item>
     </style>
+    <style name="LightTheme" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">#4caf50</item>
+        <item name="android:colorPrimaryDark">#099741</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorAccent">#ff6f00</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
 </resources>

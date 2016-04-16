@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Pharm Plus</string>
+    <string name="app_name">Pharm+</string>
+    <string name="search_hint">Введите название препарата</string>
+    <string name="text"></string>
+    <string name="add"></string>
+    <string name="search_title">search</string>
 </resources>

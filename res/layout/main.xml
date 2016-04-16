@@ -2,8 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
->
+              android:layout_height="fill_parent">
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="top">
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MyActivity"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+    />
+
+
+</LinearLayout>
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Запрос к базе данных" android:layout_gravity="center_horizontal"/>
     <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
